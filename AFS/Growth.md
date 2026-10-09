@@ -4,6 +4,17 @@ aliases:
 
 ## 2027
 
+### Navy Intel Prototype Effort
+Help them with a surge to create a prod ready prototype ~200k dollars
+Consolidated use cases
+Focusing on water down agentic AI
+#### One mission Specific Use-case
+
+Commercial ship vessel data tracking and answer question such as what 
+
+#### One Enterprise Use-case
+
+Extract Agent Canvas
 ### 10/26- DCSA CSO Prototype  
 Designed and built, end to end and in about two days, a working prototype of an AI-assisted DCSA security-clearance applicant portal to support AFS growth with DCSA. Applicants sign in through OIDC (Keycloak or Cognito) and fill out the SF-86. The form is checked by standard rules and by AI that catches meaning-level gaps, such as a school in DC with no matching DC residence, and an AI agent can pre-fill it from uploaded documents. After submission, an autonomous Security Officer agent (Google ADK) reviews the full form and decides on its own whether to send it back to the applicant with a request for information. The prototype also covers foreign-travel reporting (pre-travel notifications and post-travel debriefs) and a case assistant chat that answers questions about the applicant's case and travel through a self-hosted MCP tool server. Stack: React/TypeScript, Python/FastAPI, LLMs on AWS Bedrock, packaged as a single Docker image with EKS deployment manifests. The result is a realistic demo that shows how GenAI can cut applicant errors and back-and-forth during clearance processing, and it reuses patterns from the TSA prototype and the mygpt platform.
 
